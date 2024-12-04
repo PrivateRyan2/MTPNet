@@ -37,21 +37,21 @@ python  train.py \
 
 #### Instance Segmentation on COCO benchmark
 
-|    Model     | AP mask  |
-| :----------: | :------: |
-| ViT-Adapter  |   52.1   |
-| Soft Teacher |   53.0   |
-|   SwinV2-G   |   54.4   |
-|  **MTPNet**  | **54.6** |
+|    Model    | mask AP  |
+| :---------: | :------: |
+|   Swin-L    |   51.1   |
+| ViT-Adapter |   52.1   |
+|  Mask DINO  |   52.5   |
+| **MTPNet**  | **54.3** |
 
 #### Object Detection on COCO benchmark
 
-|    Model     |  AP box  |
-| :----------: | :------: |
-| ViT-Adapter  |   60.1   |
-| Soft Teacher |   61.3   |
-|   SwinV2-G   |   63.1   |
-|  **MTPNet**  | **63.5** |
+|    Model    | box mAP  |
+| :---------: | :------: |
+|   Swin-L    |   60.6   |
+| ViT-Adapter |   60.9   |
+|    GLIP     |   61.5   |
+| **MTPNet**  | **62.8** |
 
 #### Visual Quesion Answering on VQAv2 benchmark
 
@@ -59,6 +59,6 @@ python  train.py \
 | :--------: | :-------: |
 |   VinVL    |   76.52   |
 |    BLIP    |   78.25   |
-|  Flamingo  |   82.00   |
-| **MTPNet** | **83.17** |
+|    VAST    |   80.16   |
+| **MTPNet** | **83.19** |
 
