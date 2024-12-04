@@ -1,14 +1,12 @@
 # MTPNet: Enhancing Multimodal Fusion with Masked Token Pretraining
 
-### Task: Vision and Vision-Language tasks
+### Task: Multimodal Vision and Vision-Language
 
-The task involves addressing various vision and vision-language challenges, including instance segmentation, object detection, visual question answering. The focus is on developing a unified approach capable of achieving state-of-the-art performance across these diverse domains, demonstrating adaptability to both visual and multimodal tasks.
-
-
+MTPNet introduces a general-purpose multimodal foundation model designed to effectively address a wide range of vision and vision-language tasks, such as instance segmentation, object detection, and visual question answering. The primary goal is to create a scalable model that delivers state-of-the-art results across these different domains, demonstrating its ability to seamlessly adapt to various visual and multimodal challenges. By using a unified architecture, MTPNet reduces the need for task-specific models, allowing it to generalize well across multiple domains and provide consistent, high-quality results. The model aims to streamline the development of vision-based applications by serving as a flexible solution for numerous tasks.
 
 ### Overview
 
-MTPNet uses a Multiway Transformer architecture that supports deep integration and modality-specific encoding. By employing a unified approach for images, texts, and image-text pairs, the model efficiently handles both vision and vision-language tasks without requiring separate, task-specific adaptations.
+MTPNet employs a general-purpose multimodal pretraining framework that integrates both visual and language data, aiming to achieve cutting-edge performance across a variety of downstream tasks. Traditional vision-language models often require modifying the model architecture for specific tasks or use separate parameters for each modality, limiting their efficiency and scalability. To overcome these limitations, MTPNet adopts a shared multi-head attention-based Transformer architecture that treats images similarly to text by using a Masked Token Pretraining approach. This unified architecture supports deep fusion between modalities and enables both modality-specific encoding and cross-modal integration.
 
 
 
