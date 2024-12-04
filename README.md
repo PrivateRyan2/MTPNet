@@ -1,5 +1,17 @@
 # MTPNet: Enhancing Multimodal Fusion with Masked Token Pretraining
 
+### Task: Vision and Vision-Language tasks
+
+The task involves addressing various vision and vision-language challenges, including instance segmentation, object detection, visual question answering. The focus is on developing a unified approach capable of achieving state-of-the-art performance across these diverse domains, demonstrating adaptability to both visual and multimodal tasks.
+
+
+
+### Overview
+
+MTPNet uses a Multiway Transformer architecture that supports deep integration and modality-specific encoding. By employing a unified approach for images, texts, and image-text pairs, the model efficiently handles both vision and vision-language tasks without requiring separate, task-specific adaptations.
+
+
+
 ### Setup
 
 1. Install the required libraries
