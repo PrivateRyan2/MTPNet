@@ -4,6 +4,8 @@
 
 MTPNet introduces a general-purpose multimodal foundation model designed to effectively address a wide range of vision and vision-language tasks, such as instance segmentation, object detection, and visual question answering. The primary goal is to create a scalable model that delivers state-of-the-art results across these different domains, demonstrating its ability to seamlessly adapt to various visual and multimodal challenges. By using a unified architecture, MTPNet reduces the need for task-specific models, allowing it to generalize well across multiple domains and provide consistent, high-quality results. The model aims to streamline the development of vision-based applications by serving as a flexible solution for numerous tasks.
 
+
+
 ## Overview
 
 MTPNet employs a general-purpose multimodal pretraining framework that integrates both visual and language data, aiming to achieve cutting-edge performance across a variety of downstream tasks. Traditional vision-language models often require modifying the model architecture for specific tasks or use separate parameters for each modality, limiting their efficiency and scalability. To overcome these limitations, MTPNet adopts a shared multi-head attention-based Transformer architecture that treats images similarly to text by using a Masked Token Pretraining approach. This unified architecture supports deep fusion between modalities and enables both modality-specific encoding and cross-modal integration.
