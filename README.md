@@ -76,7 +76,7 @@ python  train.py \
 
 
 
-## Acknowledge
+## Acknowledgement
 
 This repository is built using the the [CLIP](https://github.com/openai/CLIP), the [open_clip](https://github.com/mlfoundations/open_clip), the Oscar,  [BEiT](https://github.com/microsoft/unilm/tree/master/beit) , the [DeiT](https://github.com/facebookresearch/deit), the [Dino](https://github.com/facebookresearch/dino) repository.
 This work was partly supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government(MSIT) (No. 2022R1A2C2012706)
